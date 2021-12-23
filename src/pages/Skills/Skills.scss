@@ -1,0 +1,39 @@
+@import '../../variables/variables.scss';
+
+
+.skills {
+  color: #fff;
+  font-family: $font;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    
+    &:not(:last-child) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    color: $green;
+    margin: 0 0 4px 0;
+  }
+
+  @media screen and(max-width: 768px) {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__list li {
+      font-size: 14px;
+    }
+  }
+}

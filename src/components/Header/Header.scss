@@ -1,0 +1,62 @@
+@import '../../variables/variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 53px;
+  margin-bottom: 20px;
+
+  &__navbar {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+  }
+
+  &__text {
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__link > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px;
+    transition: border-bottom .3s;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid $green;
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    justify-content: center;
+
+    &__text {
+      display: none;
+    }
+
+    &__navbar {
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    &__link > a {
+      font-size: 14px;
+    }
+  }
+}
+
+.active {
+  color: $green !important;
+  border-bottom: 2px solid $green !important;
+}

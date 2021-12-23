@@ -1,0 +1,46 @@
+@import '../../variables/variables.scss';
+
+
+.contacts {
+  & > a {
+    position: relative;
+    transition: color .3s;
+
+    &:hover {
+      color: #37cc19;
+
+      &::after {
+        content: '<';
+        position: absolute;
+        top: 1px;
+      }
+    }
+  }
+
+  &__title {
+    font-family: $font;
+    font-size: 28px;
+    color: #37cc19;
+    margin: 0 0 4px 0;
+    line-height: 28px;
+  }
+
+  &__text {
+    display: inline-block;
+    text-decoration: none;
+    font-family: $font;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 18px;
+  }
+
+  @media screen and(max-width: 768px) {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+  }
+}
