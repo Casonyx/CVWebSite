@@ -23,13 +23,12 @@ export default function Skills() {
           <li>
             <h4 className="skills__title">Others</h4>
             Figma, Photoshop, Sketch,
-            Email markup,
             Python and Django.
           </li>  
           <li>
             <h4 className="skills__title">Jobs</h4>
-            <span>30.05.2021 - 07.12.2021 -- Layout Engineer</span>
-            <span>01.2020 - 02.2021 -- Freelance Layout Engineer</span>
+            <span>30.03.2021 - 07.12.2021 -- Layout Engineer</span>
+            <span>04.2019 - 02.2021 -- Freelance Layout Engineer</span>
           </li>  
         </ul>
       </div>

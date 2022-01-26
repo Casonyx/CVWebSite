@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App';
 import Skills from './pages/Skills/Skills';
@@ -10,7 +10,7 @@ import About from './pages/About/About';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={ <App /> }/>
         <Route path="/" element={ <About /> }/>
@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route path="projects" element={ <Projects /> }/>
         <Route path="contacts" element={ <Contacts /> }/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
