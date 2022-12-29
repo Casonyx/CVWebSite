@@ -20,7 +20,7 @@ export default function Projects() {
         <div className="projects__old">
         <h3 className="projects__title">Old Projects</h3>
           <ul className="projects__list">
-            <li><a href="hhttps://casonyx.github.io/mountains/" className="projects__link">Travel</a></li>
+            <li><a href="https://casonyx.github.io/mountains/" className="projects__link">Travel</a></li>
             <li><a href="https://casonyx.github.io/Axure/" className="projects__link">Axure</a></li>
             <li><a href="https://casonyx.github.io/Platforms/" className="projects__link">Platforms</a></li>
             <li><a href="https://casonyx.github.io/Taxi/" className="projects__link">Taxi</a></li>
