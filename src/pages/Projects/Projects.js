@@ -14,7 +14,7 @@ export default function Projects() {
           <ul className="projects__list">
             <li><a href="https://casonyx.github.io/CatsShop/" className="projects__link">Cats Shop</a></li>
             <li><a href="https://casonyx.github.io/LandingBryanskBusiness/" className="projects__link">Order Business</a></li>
-            <li><a href="https://casonyx.github.io/LandingBusiness/" className="projects__link">Business</a></li>
+            <li><a href="https://casonyx.github.io/DRTest/" className="projects__link">PCs</a></li>
           </ul>
         </div>
         <div className="projects__old">
