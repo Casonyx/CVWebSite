@@ -27,8 +27,8 @@ export default function Skills() {
           </li>  
           <li>
             <h4 className="skills__title">Jobs</h4>
-            <span>30.03.2021 - 07.12.2021 -- Layout Engineer</span>
-            <span>04.2019 - 02.2021 -- Freelance Layout Engineer</span>
+            <span>30.10.2021 - 07.04.2022 -- Layout Engineer</span>
+            <span>04.2020 - 02.2021 -- Freelance Layout Engineer</span>
           </li>  
         </ul>
       </div>
