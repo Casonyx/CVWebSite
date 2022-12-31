@@ -12,12 +12,12 @@ export default function Skills() {
         <ul className="skills__list">   
           <li>
             <h4 className="skills__title">Development skills</h4>
-            HTML, PUG, CSS, SCSS, LESS, SASS, JavaScript, React, jQuery, Webpack.
+            HTML, PUG, CSS, SCSS, LESS, SASS, JavaScript, jQuery, Webpack.
           </li>  
           <li>
             <h4 className="skills__title">Team skills</h4>
             <span>Git, Kaiten, BEM.</span>
-            KISS, DRY, YAGNI. 
+            KISS, DRY. 
             <span>Clean, semantic, responsive and cross browser layout.</span>
           </li>   
           <li>
