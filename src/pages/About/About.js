@@ -11,7 +11,7 @@ function About() {
         <p className="about__text">
           Hi! I’m a frontend developer. 
           I study and work with HTML, CSS, 
-          SCSS, JavaScript and React  using BEM, DRY, KISS and YAGNI. 
+          SCSS and JavaScript using BEM, DRY and KISS. 
           My purpose is to work in a team, to impove my knowledge of development. 
           I have a freelance experience. 
           I believe that a human is capable of anything!
