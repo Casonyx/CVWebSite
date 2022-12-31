@@ -16,7 +16,7 @@ export default function Contacts() {
         <h3 className="contacts__title">GitHub</h3>
         <a href='https://github.com/Casonyx' className="contacts__text">Casonyx</a>
         <h3 className="contacts__title">Phone</h3>
-        <span className="contacts__text">+79998674533 (RU)</span>
+        <span className="contacts__text">+79256669701 (RU)</span>
       </div>
     </div>
   )
