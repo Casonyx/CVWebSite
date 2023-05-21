@@ -78,6 +78,8 @@
 
     &__title {
       font-size: 18px;
+      background-color: #000;
+      box-shadow: 0 0 15px 14px #000;
     }
 
     &__btn {
